@@ -3,4 +3,9 @@ project(cvm C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(cvm main.c)
+add_executable(cvm main.c
+        common.h
+        chunk.h
+        chunk.c
+        memory.c
+        memory.h)
