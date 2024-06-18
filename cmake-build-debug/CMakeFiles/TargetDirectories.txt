@@ -1,3 +1,0 @@
-/home/vmaryn/CLionProjects/cvm/cmake-build-debug/CMakeFiles/cvm.dir
-/home/vmaryn/CLionProjects/cvm/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/vmaryn/CLionProjects/cvm/cmake-build-debug/CMakeFiles/rebuild_cache.dir

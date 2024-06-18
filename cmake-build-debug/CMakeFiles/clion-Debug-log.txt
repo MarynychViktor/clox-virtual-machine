@@ -1,4 +1,0 @@
-/mnt/EAE60B22E60AEF1F/JetbrainsApps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/mnt/EAE60B22E60AEF1F/JetbrainsApps/clion/bin/ninja/linux/x64/ninja -G Ninja -S /home/vmaryn/CLionProjects/cvm -B /home/vmaryn/CLionProjects/cvm/cmake-build-debug
--- Configuring done (0.0s)
--- Generating done (0.0s)
--- Build files have been written to: /home/vmaryn/CLionProjects/cvm/cmake-build-debug
