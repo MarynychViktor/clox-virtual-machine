@@ -8,4 +8,6 @@ add_executable(cvm main.c
         chunk.h
         chunk.c
         memory.c
-        memory.h)
+        memory.h
+        debug.c
+        debug.h)
