@@ -42,6 +42,9 @@ static InterpretResult  run()
                 Value constant = READ_CONSTANT();
                 push(constant);
                 break;
+            case OP_NEGATE:
+                push(-pop());
+                break;
             case OP_RETURN:
                 printValue(pop());
                 printf("\n");
@@ -71,5 +74,6 @@ void push(Value value)
 
 Value pop()
 {
-    return *(vm.stackTop--);
+    vm.stackTop--;
+    return *vm.stackTop;
 }
